@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Aarthayatra</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="images/aarhayatra logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="news.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav-data">
+        <a href="index.html" class="nav-logo">Aartha Yatra</a>
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="ri-menu-line nav-open"></i>
+          <i class="ri-close-line nav-close"></i>
+        </div>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="world.html" class="nav-link">World News</a></li>
+          <li><a href="technology.html" class="nav-link">Technology</a></li>
+          <li><a href="sports.html" class="nav-link">Sports</a></li>
+          <li><a href="politics.html" class="nav-link">Politics</a></li>
+          <li><a href="contact.html" class="nav-link active-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-content container" style="margin-top: 4rem">
+    <h1 class="home-head">📩 Contact Us</h1>
+    <form class="contact-form" action="#">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+  </main>
+
+  <script src="news.js"></script>
+</body>
+</html>
